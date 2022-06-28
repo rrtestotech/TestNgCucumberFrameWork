@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22622" started-at="2022-06-28T03:43:54Z" finished-at="2022-06-28T03:44:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.ParallelRun@23e028a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test Chrome implicitNotVisible" duration-ms="22622" started-at="2022-06-28T03:43:54Z" finished-at="2022-06-28T03:44:16Z">
+      <class name="testrunners.ParallelRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunners.ParallelRun@23e028a9]" name="setUpClass" is-config="true" duration-ms="1180" started-at="2022-06-28T03:43:54Z" finished-at="2022-06-28T03:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.ParallelRun@23e028a9]" name="runScenario" duration-ms="16764" started-at="2022-06-28T03:43:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-28T03:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding candidate name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Candidate Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunners.ParallelRun@23e028a9]" name="tearDownClass" is-config="true" duration-ms="4647" started-at="2022-06-28T03:44:12Z" finished-at="2022-06-28T03:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.ParallelRun -->
+    </test> <!-- Test Chrome implicitNotVisible -->
+  </suite> <!-- Suite -->
+</testng-results>
